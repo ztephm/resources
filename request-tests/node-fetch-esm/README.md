@@ -4,7 +4,6 @@
 #### Resources
 * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 * https://nodejs.org/en/
-* https://www.npmjs.com/package/nodemon
 * https://www.npmjs.com/package/node-fetch
 * Example from [Stack Abuse post](https://stackabuse.com/making-http-requests-in-node-js-with-node-fetch/) 
 
