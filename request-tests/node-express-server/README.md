@@ -10,7 +10,7 @@
 
 #### Instructions
 
-1. `mkdir node_express_server && cd node_express_server`
+1. `mkdir node-express-server && cd node-express-server`
     * Create & enter new project folder
 2. `touch server.js`
     * Creates JS file

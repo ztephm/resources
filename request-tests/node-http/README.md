@@ -12,7 +12,7 @@
 
 #### Instructions
 
-1. `mkdir node_http && cd node_http`
+1. `mkdir node-http && cd node-http`
     * Create & enter new project folder
 2. `touch api_app.js`
     * Creates JS file for API request example
