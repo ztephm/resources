@@ -1,14 +1,14 @@
 # Node.js + Express.js + Nodemon + Body Parser Test
 *POST & GET requests to local server created with Express*
 
-#### Resources
+## Resources
 * https://nodejs.org/en/
 * https://expressjs.com/en/starter/installing.html
 * https://www.npmjs.com/package/nodemon
 * https://www.npmjs.com/package/body-parser
 * Calculator example from Angela Yu's Udemy [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) course
 
-#### Instructions
+## Instructions
 
 1. `mkdir node-express-server && cd node-express-server`
     * Create & enter new project folder

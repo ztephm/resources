@@ -2,7 +2,7 @@
 * *GET JSON data from external API*
 * *GET CSV file from local server created with Node.js native HTTP module*
 
-#### Resources
+## Resources
 * https://nodejs.org/en/
 * https://nodejs.org/api/http.html
 * https://nodejs.org/api/https.html
@@ -10,7 +10,7 @@
 * Server example from [Digital Ocean post](https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module)
 * CSV from [Florida Geospatial Open Data Portal](https://geodata.floridagio.gov/datasets/myfwc::public-beach-access-locations-florida/explore?showTable=true)
 
-#### Instructions
+## Instructions
 
 1. `mkdir node-http && cd node-http`
     * Create & enter new project folder

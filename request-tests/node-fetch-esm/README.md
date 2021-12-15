@@ -1,14 +1,14 @@
 # Node.js + Fetch API
 *GET request using node-fetch ESM module*
 
-#### Resources
+## Resources
 * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 * https://nodejs.org/en/
 * https://www.npmjs.com/package/node-fetch
 * Example from [Stack Abuse post](https://stackabuse.com/making-http-requests-in-node-js-with-node-fetch/) 
 * NASA example from [Twilio post](https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html)
 
-#### Instructions
+## Instructions
 
 1. `mkdir node-fetch-esm && cd node-fetch-esm`
     * Create & enter new project folder
