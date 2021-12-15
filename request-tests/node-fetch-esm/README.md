@@ -6,6 +6,7 @@
 * https://nodejs.org/en/
 * https://www.npmjs.com/package/node-fetch
 * Example from [Stack Abuse post](https://stackabuse.com/making-http-requests-in-node-js-with-node-fetch/) 
+* NASA example from [Twilio post](https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html)
 
 #### Instructions
 
