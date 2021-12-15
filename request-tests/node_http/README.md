@@ -18,10 +18,14 @@
     * Creates JS file for API request example
 3. `touch server_app.js`
     * Creates JS file for server CSV request example
-4. `code .`
-    * opens current working directory in Visual Studio Code
-[`npm init` step is not needed because a package.json is not needed - the http module comes with node]
-5. *In api_app.js* 
+4. `mkdir data`
+    * Copy [this CSV](https://github.com/ztephm/resources/blob/main/request-tests/node_http/data/Public_Beach_Access_Locations_Florida.csv) into your `data` directory
+5. `code .`
+    * opens project in Visual Studio Code
+    
+NOTE: `npm init` step is not needed because a package.json is not needed - the http module comes with node
+
+6. *In api_app.js* 
    * Retrieve a daily featured image from NASA's API:
 
   ```javascript
@@ -48,7 +52,7 @@
     console.error(e);
   });
   ```
-6. *In command line tool - test API example*
+7. *In command line tool - test API example*
     * `node api_app.js`
     * Terminal output should look similar to:
 
@@ -80,11 +84,11 @@
       url: 'https://apod.nasa.gov/apod/image/2112/LeonardSpace_Yangwang1_960_annotated.jpg'
     }
     ```
-7. *In server_app.js* 
-   * Retrieve a CSV of public beach locations
-   * Paste [this code]() into server_app.js & save
-8. *In command line tool - test Server CSV example*
+8. *In server_app.js* 
+   * Goal = retrieve a CSV of public beach locations
+   * Paste [this code](https://github.com/ztephm/resources/blob/main/request-tests/node_http/server_app.js) into server_app.js & save
+9. *In command line tool - test Server CSV example*
    * `node server_app.js`
-9. Navigate to **http://localhost:8080** in browser
+10. Navigate to **http://localhost:8080** in browser
     * **public_beaches_fl.csv** should auto-download
-10. Ctrl + C to stop server
+11. Ctrl + C to stop server
