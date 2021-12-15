@@ -72,7 +72,7 @@
 
 10. *In index.html*
     * `html:5` + tab
-    * Code your project - in this case a calculator form is created
+    * Code your project - in this example a calculator form is created, code [here](https://github.com/ztephm/resources/blob/main/request-tests/node_express_server/index.html)
 11. *In command line tool*
     * `nodemon server.js`
 12. Navigate to **http://localhost:8080** in browser
