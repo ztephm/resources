@@ -23,13 +23,13 @@
     * add description of what's being tested
     * use defaults for the rest
     * generates package.json with this info
-6. `npm install express`
+6. `npm i express`
     * lets you create a local server for testing
     * gets added to package.json's dependency section
-7. `npm install -g nodemon`
+7. `npm i -g nodemon`
     * stops/restarts server automatically when HTML or JS code changes are saved
     * gets added to package.json's dependency section
-8. `npm install body-parser`
+8. `npm i body-parser`
     * lets you handle post requests
     * gets added to package.json's dependency section
 9. *In server.js*
