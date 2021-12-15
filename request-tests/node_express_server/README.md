@@ -26,13 +26,13 @@
 6. `npm install express`
     * lets you create a local server for testing
     * gets added to package.json's dependency section
-6. `npm install -g nodemon`
+7. `npm install -g nodemon`
     * stops/restarts server automatically when HTML or JS code changes are saved
     * gets added to package.json's dependency section
-7. `npm install body-parser`
+8. `npm install body-parser`
     * lets you handle post requests
     * gets added to package.json's dependency section
-8. *In server.js*
+9. *In server.js*
 
   ```javascript
   // Require needed node modules
@@ -70,11 +70,11 @@
   })
   ```
 
-9. *In index.html*
+10. *In index.html*
     * `html:5` + tab
     * Code your project - in this case a calculator form is created
-10. *In command line tool*
+11. *In command line tool*
     * `nodemon server.js`
-11. Navigate to **http://localhost:8080** in browser
+12. Navigate to **http://localhost:8080** in browser
     * Fill out calculator form and click Submit
-12. Ctrl + C to stop server
+13. Ctrl + C to stop server
