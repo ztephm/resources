@@ -14,9 +14,9 @@
 1. `cd` into the project directory where you want to create the python environment
     * My test = `mkdir python3-requests && cd python3-requests`
 2. macOS has both Python 2 & 3 installed, check versions:
-    `python --version && which python`
+    * `python --version && which python`
       * Checks Python 2 version & path (OS usually uses Python 2)
-    `python3 --version && which python` 
+    * `python3 --version && which python` 
       * This is what we can use to create our virtual environment
 3. `python3 -m venv py3ReqEnv`
     * This creates a folder named **py3ReqEnv** that contains your environment
@@ -58,5 +58,5 @@
     * Ctrl + C twice to shut down the notebook server
     * `deactivate`
 
-*When you restart the environment the previous notebooks you created will still be available.*
-*Jupyter notebook can also handle .py files.*
+* *When you restart the environment the previous notebooks you created will still be available.*
+* *Jupyter notebook can also handle .py files.*
