@@ -1,5 +1,8 @@
 # resources
 
+## Environments
+  * [Python: venv + Jupyter Notebook](https://github.com/ztephm/resources/tree/main/environments/python-venv)
+
 ## HTTP Request Tests
   * [Node.js: Express.js Server + Nodemon + Body Parser](https://github.com/ztephm/resources/tree/main/request-tests/node-express-server)
   * [Node.js: Native HTTP Module Test](https://github.com/ztephm/resources/tree/main/request-tests/node-http)
