@@ -1,5 +1,5 @@
 # Node.js + Express.js + Nodemon + Body Parser Test
-*POST & GET*
+*POST & GET requests to local server created with Express*
 
 #### Resources
 * https://nodejs.org/en/
@@ -39,9 +39,9 @@
   const express = require('express')
   const bodyParser = require('body-parser');
   // Instantiate server with express
-  const app = express()
+  const app = express();
   // Define the port browser requests will connect to your server via
-  const port = 3000
+  const port = 8080;
 
   // For pulling vars etc from data that is sent to the server via POST request (request.body)
   app.use(bodyParser.urlencoded({extended: true})) 
@@ -75,6 +75,6 @@
     * Code your project - in this case a calculator form is created
 10. *In command line tool*
     * `nodemon server.js`
-11. Navigate to **http://localhost:3000** in browser
+11. Navigate to **http://localhost:8080** in browser
     * Fill out calculator form and click Submit
 12. Ctrl + C to stop server
